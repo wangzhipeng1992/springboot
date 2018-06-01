@@ -53,6 +53,7 @@ public class RedisClientPool {
 		jedisPool = new ShardedJedisPool(jedisPoolConfig, list);
 	}
 
+	// @PostConstruct 项目启动时候未启动redis时候设置启动失败，这里是否应该放入初始化执行来达到此目的
 	ShardedJedis getClientForListener() {
 		return jedisPool.getResource();
 	}

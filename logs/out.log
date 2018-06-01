@@ -132,3 +132,569 @@
 2018-06-01 08:11:29.675  DEBUG com.qiyou.persistence.mapper.PeopleMapper.selectAll : <==      Total: 5
 2018-06-01 08:11:32.911  WARN  com.qiyou.common.filter.ServerInterceptor : method to detect timeout for /getPeopleInfo, and the execution time is6398  ms
 2018-06-01 08:11:44.597  WARN  com.qiyou.common.filter.ServerInterceptor : method to detect timeout for /getPeopleInfo, and the execution time is5527  ms
+2018-06-01 08:30:12.295  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 7088 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 08:30:12.298  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 08:30:12.299  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 08:30:12.366  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:30:12 CST 2018]; root of context hierarchy
+2018-06-01 08:30:12.620  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 08:30:14.319  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 08:30:14.392  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 08:30:14.747  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 08:30:15.503  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$57806626] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:15.573  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 08:30:15.846  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 08:30:15.904  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:15.924  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$559b4a4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:15.972  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:15.991  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:16.003  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:16.009  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73a7a6ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:16.278  INFO  org.eclipse.jetty.util.log : Logging initialized @5500ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 08:30:16.375  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 08:30:16.377  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 08:30:16.516  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 08:30:16.516  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 08:30:16.520  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 08:30:16.527  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 08:30:16.527  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4161 ms
+2018-06-01 08:30:16.701  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 08:30:16.705  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 08:30:16.706  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 08:30:16.707  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 08:30:16.708  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 08:30:17.186  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@42373389{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.3830632602188092485.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 08:30:17.186  INFO  org.eclipse.jetty.server.Server : Started @6409ms
+2018-06-01 08:30:17.284  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 08:30:17.285  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 08:30:18.461  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[POST]}" onto public java.lang.String com.qiyou.controller.HelloWorldController.hello()
+2018-06-01 08:30:18.463  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/getPeopleInfo],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.getPeopleInfo() throws java.lang.Exception
+2018-06-01 08:30:18.464  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsertXml],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInserXml(java.lang.String) throws java.lang.Exception
+2018-06-01 08:30:18.464  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsert],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInsert() throws java.lang.Exception
+2018-06-01 08:30:18.465  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/showApi]}" onto public java.lang.String com.qiyou.controller.SwaggerController.showApi()
+2018-06-01 08:30:18.467  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-01 08:30:18.471  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-01 08:30:18.472  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-01 08:30:18.474  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-01 08:30:18.479  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-01 08:30:18.480  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-01 08:30:18.897  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:30:12 CST 2018]; root of context hierarchy
+2018-06-01 08:30:18.981  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:30:18.981  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:30:19.000  INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-01 08:30:19.030  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:30:19.567  INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-06-01 08:30:19.583  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-01 08:30:19.616  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-06-01 08:30:19.630  INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2018-06-01 08:30:19.860  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-01 08:30:19.860  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-01 08:30:19.882  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-06-01 08:30:19.903  INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@21a46ff1{HTTP/1.1,[http/1.1]}{0.0.0.0:9004}
+2018-06-01 08:30:19.904  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer : Jetty started on port(s) 9004 (http/1.1)
+2018-06-01 08:30:19.917  INFO  com.qiyou.SpringBootAdminApplication : Started SpringBootAdminApplication in 8.199 seconds (JVM running for 9.135)
+2018-06-01 08:30:37.098  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 13944 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 08:30:37.101  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 08:30:37.102  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 08:30:37.168  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:30:37 CST 2018]; root of context hierarchy
+2018-06-01 08:30:37.441  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 08:30:38.648  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 08:30:38.700  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 08:30:38.922  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 08:30:39.456  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$94886ad3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:39.520  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 08:30:39.825  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 08:30:39.889  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:39.899  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$92a34efa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:39.940  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:39.954  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:39.967  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:39.968  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0afab9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:30:40.215  INFO  org.eclipse.jetty.util.log : Logging initialized @4191ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 08:30:40.299  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 08:30:40.301  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 08:30:40.426  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 08:30:40.426  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 08:30:40.430  INFO  org.eclipse.jetty.server.session : Scavenging every 600000ms
+2018-06-01 08:30:40.437  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 08:30:40.437  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3269 ms
+2018-06-01 08:30:40.631  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 08:30:40.635  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 08:30:40.635  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 08:30:40.636  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 08:30:40.637  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 08:30:41.152  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@7661b5a{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.5535168782917665498.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 08:30:41.153  INFO  org.eclipse.jetty.server.Server : Started @5128ms
+2018-06-01 08:30:41.272  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 08:30:41.279  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 08:30:42.590  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[POST]}" onto public java.lang.String com.qiyou.controller.HelloWorldController.hello()
+2018-06-01 08:30:42.595  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/getPeopleInfo],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.getPeopleInfo() throws java.lang.Exception
+2018-06-01 08:30:42.596  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsertXml],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInserXml(java.lang.String) throws java.lang.Exception
+2018-06-01 08:30:42.597  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsert],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInsert() throws java.lang.Exception
+2018-06-01 08:30:42.597  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/showApi]}" onto public java.lang.String com.qiyou.controller.SwaggerController.showApi()
+2018-06-01 08:30:42.598  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-01 08:30:42.602  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-01 08:30:42.605  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-01 08:30:42.606  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-01 08:30:42.620  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-01 08:30:42.621  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-01 08:30:43.062  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:30:37 CST 2018]; root of context hierarchy
+2018-06-01 08:30:43.136  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:30:43.137  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:30:43.182  INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-01 08:30:43.214  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:30:43.765  INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-06-01 08:30:43.781  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-01 08:30:43.823  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-06-01 08:30:43.841  INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2018-06-01 08:30:44.072  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-01 08:30:44.073  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-01 08:30:44.095  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-06-01 08:30:44.112  INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@5aa781f2{HTTP/1.1,[http/1.1]}{0.0.0.0:9004}
+2018-06-01 08:30:44.112  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer : Jetty started on port(s) 9004 (http/1.1)
+2018-06-01 08:30:44.119  INFO  com.qiyou.SpringBootAdminApplication : Started SpringBootAdminApplication in 7.377 seconds (JVM running for 8.094)
+2018-06-01 08:31:43.844  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 13912 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 08:31:43.851  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 08:31:43.851  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 08:31:43.931  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d43661b: startup date [Fri Jun 01 08:31:43 CST 2018]; root of context hierarchy
+2018-06-01 08:31:44.161  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 08:31:45.701  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 08:31:45.760  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 08:31:45.992  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 08:31:46.705  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$9cf1c163] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:46.772  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 08:31:47.037  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 08:31:47.113  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:47.125  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9b0ca58a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:47.172  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:47.193  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:47.205  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:47.207  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b919022a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:31:47.514  INFO  org.eclipse.jetty.util.log : Logging initialized @5132ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 08:31:47.613  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 08:31:47.616  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 08:31:47.800  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 08:31:47.800  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 08:31:47.805  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 08:31:47.815  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 08:31:47.815  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3884 ms
+2018-06-01 08:31:48.045  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 08:31:48.047  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 08:31:48.048  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 08:31:48.048  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 08:31:48.048  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 08:31:48.477  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@764a3e5d{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.7881917276597987502.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 08:31:48.478  INFO  org.eclipse.jetty.server.Server : Started @6096ms
+2018-06-01 08:32:03.894  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 08:32:22.764  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 08:32:48.856  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[POST]}" onto public java.lang.String com.qiyou.controller.HelloWorldController.hello()
+2018-06-01 08:32:48.858  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsert],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInsert() throws java.lang.Exception
+2018-06-01 08:32:48.859  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/getPeopleInfo],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.getPeopleInfo() throws java.lang.Exception
+2018-06-01 08:32:48.860  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsertXml],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInserXml(java.lang.String) throws java.lang.Exception
+2018-06-01 08:32:48.861  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/showApi]}" onto public java.lang.String com.qiyou.controller.SwaggerController.showApi()
+2018-06-01 08:32:48.862  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-01 08:32:48.865  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-01 08:32:48.867  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-01 08:32:48.868  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-01 08:32:48.873  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-01 08:32:48.874  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-01 08:32:49.281  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d43661b: startup date [Fri Jun 01 08:31:43 CST 2018]; root of context hierarchy
+2018-06-01 08:32:49.414  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:32:49.414  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:32:49.440  INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-01 08:32:49.483  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:32:50.413  INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-06-01 08:32:50.430  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-01 08:32:50.483  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-06-01 08:32:50.499  INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2018-06-01 08:32:50.744  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-01 08:32:50.745  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-01 08:32:50.767  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-06-01 08:32:50.784  INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@4583b617{HTTP/1.1,[http/1.1]}{0.0.0.0:9004}
+2018-06-01 08:32:50.786  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer : Jetty started on port(s) 9004 (http/1.1)
+2018-06-01 08:32:50.793  INFO  com.qiyou.SpringBootAdminApplication : Started SpringBootAdminApplication in 67.365 seconds (JVM running for 68.411)
+2018-06-01 08:51:54.061  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 12308 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 08:51:54.065  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 08:51:54.065  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 08:51:54.143  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:51:54 CST 2018]; root of context hierarchy
+2018-06-01 08:51:54.497  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 08:51:55.907  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 08:51:55.966  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 08:51:56.208  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 08:51:57.158  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$db52f9c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:57.278  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 08:51:57.590  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 08:51:57.671  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:57.684  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d96dddf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:57.727  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:57.757  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:57.768  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:57.770  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f77a3a90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:51:58.050  INFO  org.eclipse.jetty.util.log : Logging initialized @5201ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 08:51:58.224  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 08:51:58.229  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 08:51:58.383  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 08:51:58.384  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 08:51:58.391  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 08:51:58.399  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 08:51:58.399  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4256 ms
+2018-06-01 08:51:58.605  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 08:51:58.608  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 08:51:58.608  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 08:51:58.608  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 08:51:58.608  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 08:51:59.051  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@36a6bea6{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.7237978396916730221.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 08:51:59.053  INFO  org.eclipse.jetty.server.Server : Started @6205ms
+2018-06-01 08:51:59.110  WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClient': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClientPool': Invocation of init method failed; nested exception is java.lang.NullPointerException
+2018-06-01 08:51:59.115  INFO  org.eclipse.jetty.server.session : Stopped scavenging
+2018-06-01 08:51:59.126  INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@36a6bea6{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.7237978396916730221.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],UNAVAILABLE}
+2018-06-01 08:51:59.136  INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-01 08:51:59.192  ERROR org.springframework.boot.SpringApplication : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClient': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClientPool': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.qiyou.SpringBootAdminApplication.main(SpringBootAdminApplication.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClientPool': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	... 17 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.qiyou.common.redis.RedisClientPool.getClientForListener(RedisClientPool.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 34 common frames omitted
+2018-06-01 08:52:35.820  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 8620 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 08:52:35.830  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 08:52:35.832  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 08:52:35.988  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d43661b: startup date [Fri Jun 01 08:52:35 CST 2018]; root of context hierarchy
+2018-06-01 08:52:36.459  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 08:52:38.198  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 08:52:38.249  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 08:52:38.461  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 08:52:39.344  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$7f166421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:39.409  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 08:52:39.676  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 08:52:39.751  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:39.763  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7d314848] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:39.815  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:39.837  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:39.850  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:39.851  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b3da4e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:52:40.138  INFO  org.eclipse.jetty.util.log : Logging initialized @5724ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 08:52:40.252  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 08:52:40.254  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 08:52:40.424  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 08:52:40.424  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 08:52:40.429  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 08:52:40.440  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 08:52:40.440  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4452 ms
+2018-06-01 08:52:40.656  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 08:52:40.660  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 08:52:40.660  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 08:52:40.661  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 08:52:40.662  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 08:52:41.115  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@531ec978{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.5575657568884276246.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 08:52:41.116  INFO  org.eclipse.jetty.server.Server : Started @6702ms
+2018-06-01 08:52:43.751  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 08:52:45.748  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 08:53:09.444  WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClient': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClientPool': Invocation of init method failed; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+2018-06-01 08:53:09.453  INFO  org.eclipse.jetty.server.session : Stopped scavenging
+2018-06-01 08:53:09.476  INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@531ec978{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.5575657568884276246.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],UNAVAILABLE}
+2018-06-01 08:53:09.498  INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-01 08:53:09.508  ERROR org.springframework.boot.SpringApplication : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClient': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClientPool': Invocation of init method failed; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.qiyou.SpringBootAdminApplication.main(SpringBootAdminApplication.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisClientPool': Invocation of init method failed; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	... 17 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.ShardedJedisPool.getResource(ShardedJedisPool.java:36)
+	at com.qiyou.common.redis.RedisClientPool.getClientForListener(RedisClientPool.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 34 common frames omitted
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 43 common frames omitted
+2018-06-01 08:53:37.827  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 932 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 08:53:37.829  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 08:53:37.829  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 08:53:37.895  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:53:37 CST 2018]; root of context hierarchy
+2018-06-01 08:53:38.179  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 08:53:39.468  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 08:53:39.512  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 08:53:39.700  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 08:53:40.258  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$db52f9c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:40.308  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 08:53:40.581  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 08:53:40.638  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:40.651  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d96dddf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:40.687  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:40.701  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:40.710  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:40.710  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f77a3a90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 08:53:41.186  INFO  org.eclipse.jetty.util.log : Logging initialized @4451ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 08:53:41.297  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 08:53:41.300  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 08:53:41.456  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 08:53:41.457  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 08:53:41.461  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 08:53:41.468  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 08:53:41.468  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3573 ms
+2018-06-01 08:53:41.635  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 08:53:41.640  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 08:53:41.640  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 08:53:41.641  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 08:53:41.641  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 08:53:42.132  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@36a6bea6{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.1614747421731079078.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 08:53:42.132  INFO  org.eclipse.jetty.server.Server : Started @5397ms
+2018-06-01 08:53:42.193  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 08:53:42.193  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 08:53:43.335  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[POST]}" onto public java.lang.String com.qiyou.controller.HelloWorldController.hello()
+2018-06-01 08:53:43.337  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsert],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInsert() throws java.lang.Exception
+2018-06-01 08:53:43.338  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/getPeopleInfo],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.getPeopleInfo() throws java.lang.Exception
+2018-06-01 08:53:43.338  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsertXml],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInserXml(java.lang.String) throws java.lang.Exception
+2018-06-01 08:53:43.339  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/showApi]}" onto public java.lang.String com.qiyou.controller.SwaggerController.showApi()
+2018-06-01 08:53:43.340  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-01 08:53:43.345  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-01 08:53:43.346  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-01 08:53:43.347  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-01 08:53:43.352  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-01 08:53:43.352  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-01 08:53:43.667  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1677d1: startup date [Fri Jun 01 08:53:37 CST 2018]; root of context hierarchy
+2018-06-01 08:53:43.774  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:53:43.774  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:53:43.811  INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-01 08:53:43.847  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 08:53:44.486  INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-06-01 08:53:44.502  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-01 08:53:44.533  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-06-01 08:53:44.543  INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2018-06-01 08:53:44.750  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-01 08:53:44.752  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-01 08:53:44.768  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-06-01 08:53:44.785  INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@101bdd1c{HTTP/1.1,[http/1.1]}{0.0.0.0:9004}
+2018-06-01 08:53:44.785  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer : Jetty started on port(s) 9004 (http/1.1)
+2018-06-01 08:53:44.792  INFO  com.qiyou.SpringBootAdminApplication : Started SpringBootAdminApplication in 7.338 seconds (JVM running for 8.058)
+2018-06-01 09:15:38.011  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 10608 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 09:15:38.014  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 09:15:38.015  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 09:15:38.089  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ac13091: startup date [Fri Jun 01 09:15:38 CST 2018]; root of context hierarchy
+2018-06-01 09:15:38.417  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 09:15:40.178  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 09:15:40.220  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 09:15:40.402  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 09:15:41.035  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$376cd2bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.078  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 09:15:41.355  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 09:15:41.428  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.440  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3587b6e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.473  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.496  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.505  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.506  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53941383] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:15:41.766  INFO  org.eclipse.jetty.util.log : Logging initialized @4910ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 09:15:41.882  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 09:15:41.885  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 09:15:42.031  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 09:15:42.031  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 09:15:42.034  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 09:15:42.041  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 09:15:42.041  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3952 ms
+2018-06-01 09:15:42.258  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 09:15:42.259  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 09:15:42.259  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 09:15:42.259  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 09:15:42.260  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'xssFilter' to urls: [/*]
+2018-06-01 09:15:42.260  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 09:15:42.670  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@472a11ae{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.223996021568449119.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 09:15:42.671  INFO  org.eclipse.jetty.server.Server : Started @5815ms
+2018-06-01 09:15:42.777  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 09:15:42.780  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 09:15:44.048  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[POST]}" onto public java.lang.String com.qiyou.controller.HelloWorldController.hello()
+2018-06-01 09:15:44.051  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsert],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInsert() throws java.lang.Exception
+2018-06-01 09:15:44.052  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsertXml],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInserXml(java.lang.String) throws java.lang.Exception
+2018-06-01 09:15:44.053  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/getPeopleInfo],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.getPeopleInfo() throws java.lang.Exception
+2018-06-01 09:15:44.053  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/showApi]}" onto public java.lang.String com.qiyou.controller.SwaggerController.showApi()
+2018-06-01 09:15:44.054  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-01 09:15:44.057  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-01 09:15:44.058  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-01 09:15:44.060  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-01 09:15:44.064  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-01 09:15:44.065  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-01 09:15:44.388  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ac13091: startup date [Fri Jun 01 09:15:38 CST 2018]; root of context hierarchy
+2018-06-01 09:15:44.488  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 09:15:44.488  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 09:15:44.514  INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-01 09:15:44.552  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 09:15:45.245  INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-06-01 09:15:45.261  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-01 09:15:45.295  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-06-01 09:15:45.305  INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2018-06-01 09:15:45.521  DEBUG com.qiyou.common.filter.XssFilter : xss filter init ====================
+2018-06-01 09:15:45.532  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-01 09:15:45.532  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-01 09:15:45.555  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-06-01 09:15:45.574  INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@7db40fd5{HTTP/1.1,[http/1.1]}{0.0.0.0:9004}
+2018-06-01 09:15:45.575  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer : Jetty started on port(s) 9004 (http/1.1)
+2018-06-01 09:15:45.587  INFO  com.qiyou.SpringBootAdminApplication : Started SpringBootAdminApplication in 7.979 seconds (JVM running for 8.73)
+2018-06-01 09:27:51.212  INFO  com.qiyou.SpringBootAdminApplication : Starting SpringBootAdminApplication on DESKTOP-TEAMV03 with PID 7664 (E:\project\springboot\target\classes started by Lenovo in E:\project\springboot)
+2018-06-01 09:27:51.217  DEBUG com.qiyou.SpringBootAdminApplication : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-06-01 09:27:51.218  INFO  com.qiyou.SpringBootAdminApplication : No active profile set, falling back to default profiles: default
+2018-06-01 09:27:51.316  INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62833051: startup date [Fri Jun 01 09:27:51 CST 2018]; root of context hierarchy
+2018-06-01 09:27:51.621  INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 5.3.5.Final
+2018-06-01 09:27:53.106  WARN  org.mybatis.spring.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[com.qiyou]' package. Please check your configuration.
+2018-06-01 09:27:53.163  INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-01 09:27:53.463  WARN  org.springframework.context.annotation.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-06-01 09:27:54.242  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.qiyou.common.db.MyBatisConfig$$EnhancerBySpringCGLIB$$202e53e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:54.446  INFO  com.mchange.v2.log.MLog : MLog clients using log4j logging.
+2018-06-01 09:27:54.810  INFO  com.mchange.v2.c3p0.C3P0Registry : Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-06-01 09:27:54.877  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource1' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:54.959  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1e49380b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:55.015  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:55.052  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:55.086  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:55.096  INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c5594ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-01 09:27:55.807  INFO  org.eclipse.jetty.util.log : Logging initialized @6222ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-01 09:27:55.995  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory : Server initialized with port: 9004
+2018-06-01 09:27:55.998  INFO  org.eclipse.jetty.server.Server : jetty-9.4.4.v20170414
+2018-06-01 09:27:56.318  INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+2018-06-01 09:27:56.319  INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+2018-06-01 09:27:56.324  INFO  org.eclipse.jetty.server.session : Scavenging every 660000ms
+2018-06-01 09:27:56.342  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring embedded WebApplicationContext
+2018-06-01 09:27:56.343  INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 5027 ms
+2018-06-01 09:27:56.933  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-01 09:27:56.934  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-01 09:27:56.935  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-01 09:27:56.936  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-01 09:27:56.937  INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'xssFilter' to urls: [/*]
+2018-06-01 09:27:56.938  INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-01 09:27:57.769  INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@d8835af{/,[file:///C:/Users/Lenovo/AppData/Local/Temp/jetty-docbase.7657648881394460422.9004/, jar:file:/C:/Users/Lenovo/.m2/repository/io/springfox/springfox-swagger-ui/2.4.0/springfox-swagger-ui-2.4.0.jar!/META-INF/resources],AVAILABLE}
+2018-06-01 09:27:57.769  INFO  org.eclipse.jetty.server.Server : Started @8184ms
+2018-06-01 09:27:57.888  INFO  com.qiyou.common.redis.RedisClientPool : ****初始化Redis客户端****
+2018-06-01 09:27:57.888  INFO  com.qiyou.common.redis.RedisClientPool : Redis服务器地址：127.0.0.1:6379
+2018-06-01 09:27:59.932  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[POST]}" onto public java.lang.String com.qiyou.controller.HelloWorldController.hello()
+2018-06-01 09:27:59.935  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsertXml],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInserXml(java.lang.String) throws java.lang.Exception
+2018-06-01 09:27:59.935  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/getPeopleInfo],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.getPeopleInfo() throws java.lang.Exception
+2018-06-01 09:27:59.936  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/peopleInsert],methods=[POST]}" onto public com.qiyou.basic.Result com.qiyou.controller.PeopleController.peopleInsert() throws java.lang.Exception
+2018-06-01 09:27:59.936  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/showApi]}" onto public java.lang.String com.qiyou.controller.SwaggerController.showApi()
+2018-06-01 09:27:59.938  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-01 09:27:59.959  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-01 09:27:59.961  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-01 09:27:59.963  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-01 09:27:59.979  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-01 09:27:59.980  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-01 09:28:00.780  INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62833051: startup date [Fri Jun 01 09:27:51 CST 2018]; root of context hierarchy
+2018-06-01 09:28:00.997  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 09:28:00.997  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 09:28:01.053  INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-01 09:28:01.220  INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-01 09:28:02.852  INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-06-01 09:28:02.868  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-01 09:28:02.906  INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-06-01 09:28:02.919  INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2018-06-01 09:28:03.132  DEBUG com.qiyou.common.filter.XssFilter : xss filter init ====================
+2018-06-01 09:28:03.142  INFO  org.eclipse.jetty.server.handler.ContextHandler.application : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-01 09:28:03.142  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-01 09:28:03.167  INFO  org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-06-01 09:28:03.185  INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@18ca9277{HTTP/1.1,[http/1.1]}{0.0.0.0:9004}
+2018-06-01 09:28:03.185  INFO  org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer : Jetty started on port(s) 9004 (http/1.1)
+2018-06-01 09:28:03.193  INFO  com.qiyou.SpringBootAdminApplication : Started SpringBootAdminApplication in 12.538 seconds (JVM running for 13.609)
+2018-06-01 09:28:25.236  DEBUG com.qiyou.common.filter.XssFilter : xss filter is open
+2018-06-01 09:28:25.702  DEBUG com.qiyou.common.filter.XssFilter : xss filter is open
+2018-06-01 09:28:25.789  DEBUG com.qiyou.common.filter.XssFilter : xss filter is open
+2018-06-01 09:28:25.812  DEBUG com.qiyou.common.filter.XssFilter : xss filter is open
+2018-06-01 09:28:26.013  DEBUG com.qiyou.common.filter.XssFilter : xss filter is open
+2018-06-01 09:28:39.450  DEBUG com.qiyou.common.filter.XssFilter : xss filter is open
+2018-06-01 09:28:39.463  INFO  com.qiyou.util.IllegalStrFilterUtil : 通过sql检测
+2018-06-01 09:28:39.463  INFO  com.qiyou.util.IllegalStrFilterUtil : 通过字符串检测
+2018-06-01 09:28:39.587  INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource : Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> dataSourceKeyRW, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgff0b9v1fbhv901o951q5|3d20e575, idleConnectionTestPeriod -> 0, initialPoolSize -> 20, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=true, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 100, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 20, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-06-01 09:28:40.278  DEBUG com.qiyou.persistence.service.PeopleService : 存储信息参数 peopleInfo={"id":null,"name":"徐慧娟","sex":0,"age":25,"height":168.3,"weight":55.2}
+2018-06-01 09:28:40.363  DEBUG com.qiyou.persistence.mapper.PeopleMapper.insert : ==>  Preparing: INSERT INTO people ( id,name,sex,age,height,weight ) VALUES( ?,?,?,?,?,? ) 
+2018-06-01 09:28:40.392  DEBUG com.qiyou.persistence.mapper.PeopleMapper.insert : ==> Parameters: null, 徐慧娟(String), 0(Integer), 25(Integer), 168.3(Double), 55.2(Double)
+2018-06-01 09:28:40.402  DEBUG com.qiyou.persistence.mapper.PeopleMapper.insert : <==    Updates: 1
+2018-06-01 09:28:40.413  DEBUG com.qiyou.persistence.mapper.PeopleMapper.insert!selectKey : ==>  Executing: SELECT LAST_INSERT_ID() 
+2018-06-01 09:28:40.436  DEBUG com.qiyou.persistence.mapper.PeopleMapper.insert!selectKey : <==      Total: 1
+2018-06-01 09:28:40.475  INFO  com.qiyou.common.config.CheckInputParameterAspect : 当前调用接口-[http://localhost:9004/peopleInsert]
+2018-06-01 09:28:40.480  WARN  com.qiyou.common.filter.ServerInterceptor : method to detect timeout for /peopleInsert, and the execution time is1025  ms

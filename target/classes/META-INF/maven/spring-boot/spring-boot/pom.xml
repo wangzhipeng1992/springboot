@@ -39,6 +39,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>  
+		    <groupId>org.springframework.boot</groupId>  
+		    <artifactId>spring-boot-starter-aop</artifactId>  
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -131,6 +135,12 @@
 		    <artifactId>commons-collections4</artifactId>
 		    <version>4.0</version>
 		</dependency>
+		<!-- XSS攻击处理 -->
+		<dependency>  
+		    <groupId>org.jsoup</groupId>  
+		    <artifactId>jsoup</artifactId>  
+		    <version>1.9.2</version>  
+		</dependency> 
 	</dependencies>
 	
 	<build>
