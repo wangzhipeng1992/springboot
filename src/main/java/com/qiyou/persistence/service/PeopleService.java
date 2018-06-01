@@ -1,5 +1,6 @@
 package com.qiyou.persistence.service;
 
+import java.util.List;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -8,7 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.alibaba.fastjson.JSON;
 import com.qiyou.basic.Result;
+import com.qiyou.common.redis.RedisClient;
 import com.qiyou.persistence.mapper.PeopleMapper;
 import com.qiyou.persistence.model.People;
 import com.qiyou.util.JsonHelper;
@@ -17,6 +20,9 @@ import com.qiyou.util.JsonHelper;
 public class PeopleService {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
+	
+	@Autowired
+	private RedisClient redisClient;
 	
 	@Autowired
 	private PeopleMapper peopleMapper;
@@ -60,4 +66,17 @@ public class PeopleService {
 		return result;
 	}
 
+	public Result getPeopleInfo() throws Exception{
+        Result result = new Result();
+        if(redisClient.get("Redis_Key_ALL_PEOPLE_INFO_Key") != null){
+            List<People> allPeopleInfo = JSON.parseArray((String)redisClient.get("Redis_Key_ALL_PEOPLE_INFO_Key"), People.class);
+            result.setResultData(allPeopleInfo);
+            return result;
+        }
+        List<People> allPeopleInfo = peopleMapper.selectAll();
+        result.setResultData(allPeopleInfo);
+        redisClient.set("Redis_Key_ALL_PEOPLE_INFO_Key", JsonHelper.parseToJson(allPeopleInfo), 1*60*60);
+        return result;
+    }
+	
 }

@@ -18,6 +18,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @Api(tags = "pelple", produces = MediaType.APPLICATION_JSON_VALUE)
+@SuppressWarnings("unchecked")
 public class PeopleController {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
@@ -32,12 +33,19 @@ public class PeopleController {
 		return result;
 	}
 	
-	@RequestMapping(path = "peopleInsertXml", method = RequestMethod.POST)
+	@RequestMapping(path = "/peopleInsertXml", method = RequestMethod.POST)
 	@ApiOperation(value = "people1.2", notes = "peoplerInsertXml")
 	public Result peopleInserXml(@RequestParam("bizData") String bizData) throws Exception{
 		logger.info("peopleInsertXml传入参数 bizData={}", bizData);
-		Result result = peopleService.peopleInsertXml(JsonHelper.parseToMap(bizData));
+        Result result = peopleService.peopleInsertXml(JsonHelper.parseToMap(bizData));
 		return result;
 	}
+	
+	@RequestMapping(path = "/getPeopleInfo", method = RequestMethod.POST)
+	@ApiOperation(value = "people1.3", notes = "getPeopleInfo")
+	public Result getPeopleInfo() throws Exception{
+	    Result result = peopleService.getPeopleInfo();
+        return result;
+    }
 
 }
