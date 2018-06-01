@@ -1,8 +1,12 @@
 package com.qiyou.persistence.model;
 
-public class People extends BaseEntity {
+import java.io.Serializable;
 
-	private String name;
+public class People extends BaseEntity implements Serializable{
+
+    private static final long serialVersionUID = 1810690176131043901L;
+
+    private String name;
 
 	private Integer sex;
 
