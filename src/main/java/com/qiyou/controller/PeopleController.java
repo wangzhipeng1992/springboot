@@ -51,7 +51,7 @@ public class PeopleController {
 	@RequestMapping(path = "/getPeopleInfoFromCache", method = RequestMethod.POST)
     @ApiOperation(value = "people1.4", notes = "getPeopleInfoFromCache")
     public Result getPeopleInfoFromCache() throws Exception{
-        Result result = peopleService.getPeopleInfoFromCache("1");
+        Result result = peopleService.getPeopleInfoFromCache();
         return result;
     }
 

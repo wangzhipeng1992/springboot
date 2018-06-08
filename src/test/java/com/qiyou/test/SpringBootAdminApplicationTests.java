@@ -1,4 +1,4 @@
-package com.qiyou;
+package com.qiyou.test;
 
 import org.junit.After;
 import org.junit.Before;

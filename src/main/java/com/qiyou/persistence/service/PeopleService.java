@@ -93,7 +93,7 @@ public class PeopleService {
     }
 
     @Cacheable(value = CACHE_NAME, key = "'people_2'")
-    public Result getPeopleInfoFromCache(String id) throws Exception{
+    public Result getPeopleInfoFromCache() throws Exception{
         Result result = new Result();
         List<People> allPeopleInfo = peopleMapper.selectAll();
         result.setResultData(allPeopleInfo);
