@@ -15,7 +15,8 @@ public class JenkinsController {
     @RequestMapping(path = "/jenkins", method = RequestMethod.POST)
     @ApiOperation(value = "jenkins 1.1", notes = "Jenkins自动部署测试一")
     public String JenkinsName() {
-        return "JenkinsBuildAutoMatic";
+        String JenkinsBuildAutoMaticResult = new String("Success");
+        return JenkinsBuildAutoMaticResult;
     }
     
 }
