@@ -37,6 +37,7 @@ public class GlobalExceptionHandler {
         logger.error(String.format("ip地址%s,访问地址%s", ip, uri), exception);
         Result result = Result.result(ResultCode.RESULT__ERROR_2);
         // http请求方法异常，抛出异常信息;request绑定参数异常，抛出异常信息;servlet异常抛出
+        exception.printStackTrace();
         if (exception instanceof ServletException) {
             result.setResultDesc(exception.getLocalizedMessage());
         } else if (exception instanceof HttpMessageConversionException) { // request body错误
