@@ -12,7 +12,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 
 public class ShiroCache<K, V> implements Cache<K, V> {
 
-    private static final String REDIS_SHIRO_CACHE = "nio-shiro-cache:";
+    private static final String REDIS_SHIRO_CACHE = "qy-shiro-cache:";
     private String cacheKey;
     private RedisTemplate<K, V> redisTemplate;
     private long globExpire = 30;

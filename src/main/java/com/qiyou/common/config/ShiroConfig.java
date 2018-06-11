@@ -25,8 +25,8 @@ import org.springframework.web.filter.DelegatingFilterProxy;
 
 import com.qiyou.shiro.redis.RedisCacheManager;
 import com.qiyou.shiro.shiro.CustomFormAuthenticationFilter;
-import com.qiyou.shiro.shiro.NioDefaultWebSessionManager;
-import com.qiyou.shiro.shiro.NioShiroSessionIdGenerator;
+import com.qiyou.shiro.shiro.QyDefaultWebSessionManager;
+import com.qiyou.shiro.shiro.QyShiroSessionIdGenerator;
 import com.qiyou.shiro.shiro.ShiroDbRealm;
 
 @Configuration
@@ -70,7 +70,7 @@ public class ShiroConfig {
 	@Bean
 	@Primary
 	public SessionManager sessionManager() {
-		NioDefaultWebSessionManager sessionManager = new NioDefaultWebSessionManager();
+		QyDefaultWebSessionManager sessionManager = new QyDefaultWebSessionManager();
 		sessionManager.setSessionDAO(enterpriseSessionDao());
 		sessionManager.setCacheManager(redisCacheManager());
 		return sessionManager;
@@ -85,8 +85,8 @@ public class ShiroConfig {
 	// @Bean(name = "redisSessionDao")
 	// public SessionDAO redisSessionDao() {
 	// RedisSessionDAO sesisonDao = new RedisSessionDAO();
-	// sesisonDao.setActiveSessionsCacheName("nio-shiro-session-cache");
-	// sesisonDao.setSessionIdGenerator(new NioShiroSessionIdGenerator());
+	// sesisonDao.setActiveSessionsCacheName("qy-shiro-session-cache");
+	// sesisonDao.setSessionIdGenerator(new QyShiroSessionIdGenerator());
 	// return sesisonDao;
 	// }
 	
@@ -99,8 +99,8 @@ public class ShiroConfig {
 	@Bean(name = "enterpriseSessionDao")
 	public SessionDAO enterpriseSessionDao() {
 		EnterpriseCacheSessionDAO sessionDao = new EnterpriseCacheSessionDAO();
-		sessionDao.setActiveSessionsCacheName("nio-shiro-session-cache");
-		sessionDao.setSessionIdGenerator(new NioShiroSessionIdGenerator());
+		sessionDao.setActiveSessionsCacheName("qy-shiro-session-cache");
+		sessionDao.setSessionIdGenerator(new QyShiroSessionIdGenerator());
 		return sessionDao;
 	}
 

@@ -17,12 +17,12 @@ import org.apache.shiro.web.util.WebUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class NioDefaultWebSessionManager extends DefaultWebSessionManager {
+public class QyDefaultWebSessionManager extends DefaultWebSessionManager {
 
     // 存放登陆信息
     public static final ConcurrentHashMap<String, String> loginCache = new ConcurrentHashMap<>();
 
-    private static final Logger log = LoggerFactory.getLogger(NioDefaultWebSessionManager.class);
+    private static final Logger log = LoggerFactory.getLogger(QyDefaultWebSessionManager.class);
     private static final String SESSION_ID_NAME = "_sid";
     private static final String APPLICATION = "application";
     private static final String IS_SAVE_COOKIE = "_cookie";

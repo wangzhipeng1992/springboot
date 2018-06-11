@@ -21,7 +21,7 @@ public class RedisSessionDAO extends EnterpriseCacheSessionDAO {
 	@Value("${session.expire.time:1800}")
 	private int expireTime;
 
-	private static String prefix = "nio-shiro-session:";
+	private static String prefix = "qy-shiro-session:";
 
 	@Autowired
 	private RedisTemplate<Object, Object> redisTemplate;
