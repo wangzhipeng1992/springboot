@@ -16,7 +16,7 @@ public class JenkinsController {
     @ApiOperation(value = "jenkins 1.1", notes = "Jenkins自动部署测试一")
     public String JenkinsName() {
         String JenkinsBuildAutoMaticResult = new String("Success");
-        return JenkinsBuildAutoMaticResult.toString();
+        return JenkinsBuildAutoMaticResult;
     }
     
 }
