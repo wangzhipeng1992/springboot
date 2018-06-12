@@ -9,12 +9,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '''
-                   echo "开始编译打包过程"
-                   echo "PATH = ${PATH}"
-                   echo "M2_HOME = ${M2_HOME}"
-                   mvn clean && mvn package -DskipTests=true
-                '''
+               echo "start build"
+               echo "PATH = ${PATH}"
+               echo "M2_HOME = ${M2_HOME}"
+               mvn clean && mvn package -DskipTests=true
             }
         }
         stage('Test'){
@@ -25,12 +23,10 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh '''
-                    echo "开始远程部署应用包"
-                    jarfile=$(ls target/*.jar)
-                    scp "${jarfile}" root@${remoteIp}:/opt/adm/${appName}/
-                    ssh root@${remoteIp} "cd /opt/adm/${appName}/; ./run.sh start test"
-                '''
+                echo "start deploy"
+                cd /
+                cd /var/lib/jenkins/workspace/test/target
+                BUILD_ID=dontKillMe nohup java -jar -Dspring.profiles.active=bate spring-boot-0.0.1-SNAPSHOT.jar &
             }
         }
         
