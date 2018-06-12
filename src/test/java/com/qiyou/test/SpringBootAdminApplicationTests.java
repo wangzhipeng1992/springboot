@@ -15,8 +15,9 @@ import com.qiyou.persistence.service.PeopleService;
 @SpringBootTest
 @WebAppConfiguration
 /**
- * @description 1.package as far as possible to com.qiyou, if this maby need springBootTest(class = SpringBootAdminApplication.class)
- *              2.if @Before & @After add @Test, method init() and after() will run three times
+ * @description 1. package as far as possible to com.qiyou, if this maby need springBootTest(class = SpringBootAdminApplication.class)
+ *              2. if @Before & @After add @Test, method init() and after() will run three times
+ *              3. no @Test method, jenkins can auto run sonClass @Test method
  * @author Lenovo
  *
  */

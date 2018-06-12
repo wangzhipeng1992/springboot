@@ -9,7 +9,7 @@ import com.qiyou.util.JsonHelper;
 
 /**
  * @description : 1. class can't make to abstract
- *                2. method only at here only for simple test, can't to jenkins 
+ *                2. method only at here only for simple test
  * @author Lenovo
  *
  */
