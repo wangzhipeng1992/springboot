@@ -20,12 +20,12 @@ public class PeopleServiceTest extends SpringBootAdminApplicationTests {
 
     @Test
     public void getPeopleInfo() {
-        try {
+        /*try {
             Result pResult = peopleService.getPeopleInfoFromCache();
             System.out.println(JsonHelper.parseToJson(pResult));
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
         System.out.println("-----------------由于虚拟机未安装相应数据库,这里仅输出代表数据返回-----------------");
     }
 
