@@ -10,7 +10,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class SpringBootAdminApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-	    System.out.println("auto build test");
+	    System.out.println("auto build test why not");
 		SpringApplication.run(SpringBootAdminApplication.class, args);
 	}
 
