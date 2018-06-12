@@ -1,55 +1,21 @@
-// Declarative //
+// Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     
-    tools {
-        maven 'maven-3.5.3'
-    }
-
     stages {
         stage('Build') {
             steps {
-               echo "start build"
-               echo "PATH = ${PATH}"
-               echo "M2_HOME = ${M2_HOME}"
-               mvn clean && mvn package -DskipTests=true
+                echo 'Building..'
             }
         }
-        stage('Test'){
+        stage('Test') {
             steps {
-                sh 'echo "Test stage"'
-                junit 'reports/**/*.xml'
+                echo 'Testing..'
             }
         }
         stage('Deploy') {
             steps {
-                echo "start deploy"
-                cd /
-                cd /var/lib/jenkins/workspace/test/target
-                BUILD_ID=dontKillMe nohup java -jar -Dspring.profiles.active=bate spring-boot-0.0.1-SNAPSHOT.jar &
-            }
-        }
-        
-        stage('Check') {
-            steps {
-                sh '''
-                    echo "查看日志是否启动完成"
-                    log_file="/opt/adm/${appName}/temp.log"
-                    c=0
-                    while [[ "$c" < 15 ]]; do
-                        ssh root@${remoteIp} "grep 'Started Application in' ${log_file} >/dev/null"
-                        if [[ "$?" != "0" ]]; then
-                            echo "开始睡觉2秒钟..."
-                            sleep 2
-                            (( c++ ))
-                        else
-                            echo "启动完成！"
-                            exit 0
-                        fi
-                    done
-                    echo "超过30秒，启动失败了！"
-                    exit 1
-                '''
+                echo 'Deploying....'
             }
         }
     }
