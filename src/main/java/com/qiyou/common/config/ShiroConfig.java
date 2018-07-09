@@ -143,6 +143,7 @@ public class ShiroConfig {
 		filterChainDefinitionMap.put("/logs", "anon");
 		filterChainDefinitionMap.put("/clear", "anon");
 		filterChainDefinitionMap.put("/health/**", "anon");
+		filterChainDefinitionMap.put("/link/**", "anon");
 		shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
 		return shiroFilterFactoryBean;
 	}

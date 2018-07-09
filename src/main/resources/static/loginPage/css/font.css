@@ -1,0 +1,19 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Noto Sans CJK SC Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("NotoSansCJKsc-Regular.eot");
+}
+@font-face {
+  font-family: "Brown-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Brown-Light.otf") format("OpenType");
+}
+@font-face {
+  font-family: "Blue Sky Standard Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../eot/BlueSkyStandardLight.eot") format("embedded-opentype"), url("../woff/BlueSkyStandardLight.woff") format("woff"), url("../font/BlueSkyStandardLight.ttf") format("truetype"), url("../svg/BlueSkyStandardLight.svg") format("svg");
+}

@@ -1,0 +1,15 @@
+/* Code tidied up by ScrapBook */
+@import url("font.css");
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu { margin: 0px; padding: 0px; }
+html, body, fieldset, img, iframe, abbr { border: 0px none; }
+h1, h2, h3, h4, h5, h6, small { font-size: 100%; font-weight: normal; }
+label, summary { cursor: default; }
+a, button { cursor: pointer; }
+del, ins, u, s, a, a:hover { text-decoration: none; }
+body, textarea, input, button, select, keygen, legend { font: 12px/1.5 "Blue Sky Standard Light","Noto Sans CJK SC Light","微软雅黑","宋体"; color: rgb(51, 51, 51); outline: 0px none; }
+body { background: rgb(21, 24, 29) none repeat scroll 0% 0%; }
+a { color: rgb(102, 102, 102); }
+a:hover { color: rgb(0, 83, 166); }
+:-moz-placeholder { color: rgb(255, 255, 255); font-size: 20px !important; }
+@media (max-width: 1366px) {
+}

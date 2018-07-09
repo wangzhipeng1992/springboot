@@ -1,0 +1,80 @@
+/* Code tidied up by ScrapBook */
+@import url("font.css");
+* { padding: 0px; margin: 0px; list-style: outside none none; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img { border: medium none; margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font-size: 16px; color: rgb(50, 58, 69); line-height: 28px; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a { text-decoration: none; color: rgb(51, 51, 51); }
+a:hover { text-decoration: none; color: rgb(255, 124, 8) !important; }
+a, button, .l-subBtn { cursor: pointer; outline: medium none; }
+a, button, input, optgroup, select, textarea {  }
+img { border: 0px none; max-width: 100%; }
+a, img {  }
+input, select { outline: medium none; }
+html { font-size: 100%; height: 100%; }
+body { color: rgb(50, 58, 69); height: 100%; overflow: hidden; }
+.containers { background: rgba(0, 0, 0, 0) url("../images/Group.png") no-repeat scroll left top; height: 100%; display: block; position: relative; }
+.containers::before, .containers::after { top: 0px; left: 0px; content: ""; width: 100%; height: 100%; display: block; position: absolute; }
+.containers .containers-fluid { z-index: 10; width: 100%; height: 100%; position: relative; }
+.logo { padding: 28px; float: left; }
+.phoneLogo { display: none; }
+.loginBox { display: block; position: absolute; right: 0px; top: 0px; bottom: 0px; width: 31.25%; height: 100%; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3); }
+.loginBox::before, .loginBox::after { top: 0px; left: 0px; content: ""; width: 100%; height: 100%; display: block; position: absolute; }
+.loginBox { overflow: hidden; }
+.lbox-cont { padding: 24% 0px 0px; width: 73.35%; margin: auto; }
+.l-tit { font-size: 28px; line-height: 34px; }
+.l-form { padding-top: 11%; }
+.inputBox { padding-bottom: 8%; }
+.l-lab { display: block; font-family: BlueSkyStandard-Bold; font-size: 14px; color: rgb(50, 58, 69); letter-spacing: 4px; text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); padding-bottom: 12px; }
+.l-input { border: 1px solid rgb(231, 231, 231); border-radius: 4px; width: 100%; height: 50px; line-height: 50px; text-indent: 10px; }
+.subBtnBox { text-align: center; }
+.l-subBtn { background: rgb(0, 214, 214) none repeat scroll 0% 0%; border-radius: 100px; width: 134px; height: 52px; line-height: 52px; font-family: BlueSkyStandard-Bold; font-size: 14px; color: rgb(255, 255, 255); letter-spacing: 4px; text-align: center; }
+.l-subBtn:hover { box-shadow: 0px 14px 18px 0px rgba(0, 0, 0, 0.1); }
+.copyright { position: absolute; bottom: 5px; width: 100%; text-align: center; font-size: 12px; color: rgb(185, 185, 185); }
+.record { color: rgb(185, 185, 185); text-decoration: none; }
+@media screen and (min-width: 1920px) {
+  .containers { background-size: 100% auto; }
+  .lbox-cont { padding: 30% 0px 0px; }
+  .l-form { padding-top: 16%; }
+  .inputBox { padding-bottom: 10%; }
+  .l-input { height: 68px; line-height: 68px; }
+  .l-subBtn { width: 180px; height: 70px; line-height: 70px; }
+}
+@media screen and (min-width: 800px) {
+  .loginBox::before { z-index: 10; background-color: rgb(255, 255, 255); }
+  .loginBox::after { background-position: left center; background-attachment: fixed; background-image: url("../images/Group.png"); }
+}
+@media screen and (max-width: 800px) {
+  .logo { float: none; padding: 12.5% 0px 0px; }
+  .pcLogo { display: none; }
+  .phoneLogo { display: block; margin: auto; }
+  .containers { background: rgb(255, 255, 255) url("phoneBg.png") no-repeat scroll left bottom; }
+  .loginBox { width: 100%; height: 100%; float: none; background: rgba(255, 255, 255, 0.3) none repeat scroll 0% 0%; box-shadow: none; }
+  .l-tit { font-size: 40px; line-height: 47px; }
+  .lbox-cont { padding-top: 28%; width: 76%; }
+  .inputBox { border-bottom: 1px solid rgb(226, 226, 226); padding-bottom: 6px; margin-bottom: 16%; }
+  .l-lab { font-size: 20px; letter-spacing: 6px; line-height: 20px; }
+  .l-input { border: medium none; display: none; text-indent: 0px; font-size: 20px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+  .subBtnBox { position: absolute; width: 100%; left: 0px; bottom: 60px; }
+  .l-subBtn { background: rgba(0, 214, 214, 0.8) none repeat scroll 0% 0%; width: 100%; height: 100px; line-height: 100px; border-radius: 0px; font-size: 24px; }
+  .copyright { color: rgb(255, 255, 255); font-size: 20px; }
+}
+@media screen and (max-width: 480px) {
+  .l-tit { font-size: 30px; }
+  .l-lab { letter-spacing: 2px; }
+  .l-lab, .copyright { font-size: 16px; }
+  .l-subBtn { height: 66px; line-height: 66px; }
+}
+@media screen and (max-width: 375px) {
+  .l-tit { font-size: 26px; letter-spacing: -1px; }
+  .logo { padding-top: 30px; }
+  .l-body { height: 110%; overflow: auto; }
+}
+@media screen and (max-width: 320px) {
+  .logo { padding-top: 20px; }
+  .loginBox { top: 0px; }
+  .l-form { padding-top: 30px; }
+  .lbox-cont { padding-top: 70px; height: 100%; }
+  .l-input { height: 30px; line-height: 30px; }
+  .inputBox { margin-bottom: 32px; }
+}
