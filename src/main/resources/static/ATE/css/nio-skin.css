@@ -1,0 +1,109 @@
+a{
+    color: #08bbc8;
+}
+
+.btn-primary{
+    background-color: #08bbc8;
+    border-color: #08bbc8;
+}
+
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.hover,
+.btn-primary:focus,
+.btn-primary:visited{
+    background-color:#06ABC8;
+    border-color: #06ABC8;
+}
+
+.btn-primary.disabled,
+.btn-primary.disabled.active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
+.btn-primary[disabled].active,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover{
+    background-color: rgba(8,187,200,0.5);
+    border-color: rgba(8,187,200,0.4);
+}
+
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color:#06ABC8;
+    border-color: #06ABC8;
+    outline: none;
+}
+
+
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #08bbc8;
+    border-color: #08bbc8;
+    outline: none;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #08bbc8;
+    border-color: #08bbc8;
+    outline: none;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+
+
+.btn-primary .badge {
+    color: #08bbc8;
+    background-color: #fff
+}
+
+.text-success{
+    color: #08bbc8;
+}
+
+
+
+/*login页面*/
+.login-page, .register-page{
+    background: #00d6d6;
+}
+
+.login-page .login-box .login-logo a{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.login-box-body, .register-box-body{
+    border-radius: 4px;
+}
+.form-group.has-success .form-control{
+    border-color: #08bbc8;
+}
+.has-success .input-group-addon{
+    color: #08bbc8;
+    border-color: #08bbc8;
+}

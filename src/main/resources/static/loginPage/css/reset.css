@@ -1,0 +1,9 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; padding: 0px; width: 100%; line-height: 22px; }
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, blockquote, th, td { margin: 0px; padding: 0px; }
+img, body, html { border: medium none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+h1, h2, h3, h4, h5, h6, b, i { font-style: normal; font-weight: normal; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus, input[type="button"], input[type="submit"] { outline: medium none; }

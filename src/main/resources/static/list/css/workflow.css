@@ -1,0 +1,132 @@
+/* CSS Document */
+
+div,ul,li,h1,h2,h3,p,span,input,dl,dd,table,form{ margin:0; padding:0; list-style:none; font-size:14px; font-family:segoe ui, Arial, "Microsoft Yahei";}
+dt{margin:0; padding:0; list-style:none; font-size:13px; font-family:segoe ui, Arial, "Microsoft Yahei";}
+a:link,a:visited,a:hover,a:active{text-decoration:none;}
+
+.clear{ clear:both; margin:0; padding:0; list-style:none; height:0px; line-height:0px;}
+
+body{ margin:0 auto; background:#fff}
+
+.contant_body{ background:#fff url(../img/contant_bg.gif) center top repeat-y;}
+
+.top{ margin:0 auto; background:url(../img/tbg.jpg) right center no-repeat; min-width:1200px;}
+.top .box{ height:90px; margin:0 auto; width:1200px;}
+.top .box h1{ background:url(../img/logo_workflow.png) left center no-repeat; float:left; height:90px; width:500px;}
+/*.top .box .home{ float:right; cursor:pointer; background:url(../img/l_1.png) left top repeat-y; width:66px; padding-left:1px; height:90px; position:relative}*/
+.top .box .home{ float:right; cursor:pointer; width:66px; padding-left:1px; height:90px; position:relative}
+.top .box .home dt p{ height:90px; width:26px; margin:0 auto; background:url(../img/i_2.png) left center no-repeat;}
+.top .box .home dd{ display:none; overflow:hidden; border:1px #ddd solid; border-top:0px; background:#fff; position:absolute; top:90px; z-index:99; right:0px; padding:10px; width:240px; -moz-box-shadow:0px 2px 5px #ccc;/*firefox*/  -webkit-box-shadow:0px 2px 5px #ccc;/*webkit*/  box-shadow:0px 2px 5px #ccc;/*opera或ie9*/  }
+.top .box .home dd a{ float:left; width:70px; color:#666; line-height:40px; padding-left:10px;}
+.top .box .home dd a:hover{ background:#f5f5f5; color:#09f;}
+.top .box .home:hover dd{ display:block;}
+.top .box .home:hover dt p{ background:url(../img/i_2.png) right center no-repeat}
+.top .box span{ float:right; height:90px; padding-left:50px; background:url(../img/i_1.png) left center no-repeat; padding-right:10px; color:#fff; font-size:14px; line-height:90px;}
+
+.contant{ background:#fff url(../img/contant_bg.gif) center top repeat-y; width:1200px; margin:0 auto; overflow:hidden}
+.contant_list{ width:100%; margin:0 auto; }
+
+.contant_left{ width:240px; float:left; padding:20px 0px;}
+.contant_left .menubox{ margin-bottom:20px;}
+.contant_left .menubox h1{ height:36px; line-height:36px; font-size:20px; color:#000; padding-left:10px; padding-bottom:10px}
+.contant_left .menubox .boxhover{ background:url(../img/t_1.gif) right center no-repeat}
+.contant_left .menubox dl{margin:0px 20px 0px 0px;}
+.contant_left .menubox dl dt a{ display:block; height:40px; padding-left:10px; line-height:40px; color:#333; font-size:20px}
+.contant_left .menubox dl dd a{ display:block; height:36px; line-height:36px; padding-left:24px; color:#666; font-size:14px; background-image:url(../img/dot.gif); background-position:10px center; background-repeat:no-repeat}
+.contant_left .menubox .hover{ background-color:#eee; color:#3366cc} 
+.contant_left .menubox a:hover{ background-color:#f5f5f5;}
+
+.contatn_right{ width:920px; float:left; padding-left:20px; padding-top:20px;}
+.contatn_right .app_box{ overflow:hidden;}
+.contatn_right .app_box .box1{ float:right; width:150px; padding-left:20px;}
+.contatn_right .app_box .box2{ float:left; width:800px; margin-bottom:6px;}
+.contatn_right .app_box .app{ float:left; background-color:#00b2bf; color:#fff; text-align:center; width:150px; height:50px; padding-top:100px; font-size:17px; margin-right:10px; margin-bottom:10px; line-height:40px;}
+.contatn_right .app_box .app:hover{ background-color:#007ebf}
+.contatn_right .app_box .wn_app{ display:block; width:110px; height:110px; padding:20px; font-size:18px; line-height:30px; background-color:#f93; color:#fff;}
+.contatn_right .app_box .wn_app p{ line-height:50px; font-size:30px;}
+.contatn_right .app_box .a_1{ background-image:url(../img/icon_box.png); background-position:left top; background-repeat:no-repeat;}
+.contatn_right .app_box .a_2{ background-image:url(../img/icon_box.png); background-position:-150px top; background-repeat:no-repeat;}
+.contatn_right .app_box .a_3{ background-image:url(../img/icon_box.png); background-position:-300px top; background-repeat:no-repeat;}
+.contatn_right .app_box .a_4{ background-image:url(../img/icon_box.png); background-position:left -150px; background-repeat:no-repeat;}
+.contatn_right .app_box .a_5{ background-image:url(../img/icon_box.png); background-position:-150px -150px; background-repeat:no-repeat;}
+.contatn_right .app_box .a_6{ background-image:url(../img/Supplier.png); background-position:50px 30px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_7{ background-image:url(../img/icon_box.png); background-position:-300px -145px; background-repeat:no-repeat;}
+ 
+.contatn_right .app_box .a_8{ background-image:url(../img/icon_box.png); background-position:0px -275px; background-repeat:no-repeat;}
+ 
+.contatn_right .app_box .a_9{ background-image:url(../img/icon_box.png); background-position:-150px -275px; background-repeat:no-repeat;}
+ 
+
+.contatn_right .app_box .a_10{ background-image:url(../img/icon_box.png); background-position:0px -390px; background-repeat:no-repeat;}
+ 
+
+.contatn_right .app_box .a_11{ background-image:url(../img/icon_box.png); background-position:-150px -390px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_12{ background-image:url(../img/icon_box.png); background-position:-300px -275px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_13{ background-image:url(../img/icon_box.png); background-position:-290px -390px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_14{ background-image:url(../img/icon_box.png); background-position:-0px -503px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_15{ background-image:url(../img/icon_box.png); background-position:-140px -503px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_16{ background-image:url(../img/jiaoche.png); background-position:40px 50px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_17{ background-image:url(../img/peixun.png); background-position:30px 34px; background-repeat:no-repeat;}
+.contatn_right .app_box .a_18{ background-image:url(../img/Patent.png); background-position: 25px 10px; background-repeat:no-repeat;}
+
+.contatn_right .app_box .a_19{ background-image:url(../img/SpecialPayment.png); background-position: 45px 37px; background-repeat:no-repeat;}
+.contatn_right .app_box .a_20{ background-image:url(../img/Gift.png); background-position: 55px 37px; background-repeat:no-repeat;}
+.contatn_right .app_box .a_20 img{background-image:url(../img/tt_new.gif); background-repeat:no-repeat;}   
+ .contatn_right .app_box .a_21{ background-image:url(../img/FinancialStatement.png); background-position: 45px 37px; background-repeat:no-repeat;}
+.contatn_right .app_box .a_22{ background-image:url(../img/TesingApplicant.png); background-position: 55px 37px; background-repeat:no-repeat;}
+
+.listpage_contant{ padding-bottom:40px;}
+.listpage_list{ padding:20px 0px 20px 0px; font-size:18px; line-height:30px; color:#444;}
+.listpage_list .listtable{ width:100%; border:1px #ddd solid; border-collapse:collapse}
+.listpage_list .listtable td{ height:40px; color:#666; border-bottom:#ddd solid 1px ; padding:0px 10px;}
+.listpage_list .listtable .type{font-weight:bold; background:#eee; text-align:center;}
+.listpage_list .listtable .t1{ width:40px;}
+.listpage_list .listtable .t2{ width:120px;}
+.listpage_list .listtable .t3{ width:180px;}
+.inputtext{ width:278px; padding:0px 2px; height:25px; line-height:24px; border:1px #ddd solid; line-height:24px; font-family:segoe ui, Arial, "Microsoft Yahei"; color:#666;}
+.inputbtn{width:80px; background:#f5f5f5; text-align:center; cursor:pointer; line-height:26px; border-color:#c5c5c5;}
+
+.screenbox{ border-bottom:1px #ddd solid; background:#f5f5f5; height:50px;}
+.screenbox .screen{ padding:10px 0px 0px 0px; margin:0 auto}
+.screenbox dl{ float:left;}
+.screenbox dl dt{ float:left; font-weight:bold; line-height:26px; padding:0px 5px 0px 5px; color:#333;}
+.screenbox dl dd{ float:left; padding:2px 10px 2px 0px;}
+.screenbox dl dd .search_input{ width:278px; padding:0px 2px; height:25px; line-height:24px; border:1px #ddd solid; line-height:24px; font-family:segoe ui, Arial, "Microsoft Yahei"; color:#666;}
+.screenbox dl dd .time_input{ width:90px; padding:0px 2px 0px 20px; height:25px; line-height:24px; border:1px #ddd solid; line-height:24px; font-family:segoe ui, Arial, "Microsoft Yahei"; color:#666; background:#fff url(../img/i_3.gif) 4px center no-repeat;}
+.screenbox dl .selectbox{ position:relative; cursor:pointer}
+.screenbox dl .selectbox .s1{ width:178px; border:1px #ddd solid; height:24px; line-height:24px; padding:0px 2px; background:#fff url(../img/t_2.gif) right center no-repeat;}
+.screenbox dl .selectbox .s2{ display:none; position:absolute; background:#fff; top:28px; left:0px; width:182px; border:1px #ddd solid; border-top:0px;}
+.screenbox dl .selectbox:hover .s2{ display:block}
+.screenbox dl .selectbox .s2 a{ display:block; line-height:36px; padding:0px 6px; color:#333; border-bottom:1px #eee solid;}
+.screenbox dl .selectbox .s2 a:hover{ background:#eee;}
+.screenbox dl .nd{ float:left; padding:2px 10px 2px 0px;}
+.screenbox .btnbox{ float:left; padding:2px 10px 2px 10px;}
+.screenbox .btnbox a{ display:block; width:80px; background:#007ebf; color:#fff; text-align:center; line-height:26px;}
+.screenbox .btnbox a:hover{ background:#00b2bf}
+
+.file_patch{ border-bottom:1px #ddd solid; background:#f5f5f5;}
+.file_patch p{ padding-top:10px; line-height:30px; width:1200px; color:#999; margin:0 auto; font-family:"宋体"}
+.file_patch a{ font-size:12px; color:#666; font-family:segoe ui, Arial, "Microsoft Yahei";}
+.file_patch a:hover{ text-decoration:underline} 
+
+.pagelist{ font-size:12px; padding:10px 0px; text-align:right; border-top:1px #eee solid;}
+.pagelist table td{ height:30px; vertical-align:middle; width:30px; padding:0px 2px; font-family:segoe ui; text-align:center}
+.pagelist table td a{ color:#666; display:block; line-height:30px; width:30px; text-align:center;}
+.pagelist table td a:hover{ background:#ddd;}
+.pagelist table td .hover{ color:#09F; font-weight:bold}
+
+
+
+.list_line{ background-color:#f5f5f5;}
+
+
+
+
+

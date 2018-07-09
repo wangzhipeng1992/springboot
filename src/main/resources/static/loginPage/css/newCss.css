@@ -1,0 +1,4 @@
+/* Code tidied up by ScrapBook */
+body { position: relative; text-align: left; font: 12px/18px microsoft yahei; }
+body, input, img, select { vertical-align: middle; font-size: 12px; }
+* { outline: medium none !important; }
