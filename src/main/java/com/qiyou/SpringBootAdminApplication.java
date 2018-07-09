@@ -10,6 +10,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class SpringBootAdminApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
+	    System.out.println("can i rebase");
 		SpringApplication.run(SpringBootAdminApplication.class, args);
 	}
 
